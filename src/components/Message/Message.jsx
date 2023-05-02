@@ -10,6 +10,6 @@ return (
 }
 
 Message.propTypes = {
-    message: PropTypes.string
+    message: PropTypes.string.isRequired
 }
 
